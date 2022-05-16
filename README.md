@@ -9,7 +9,7 @@ Assembly x86 tutorials
 
 ### Assemble into machine code 
 
-`nasm -f elf32 ex1.asm -o ex1.`
+`nasm -f elf32 ex1.asm -o ex1.o`
 
 elf32 - executable and linking format.
 
