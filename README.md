@@ -35,5 +35,3 @@ elf32 - executable and linking format.
 ### Perform linking with gcc
 
 `gcc -m32 ex10.o -o ex10`
-=======
->>>>>>> 57ea57b1c5e9eae931d4bbbf56ffc5c1404846c8
