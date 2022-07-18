@@ -24,3 +24,13 @@ elf32 - executable and linking format.
 ### Check the exit status
 
 `echo $?`
+
+## Running example 10 (calls prinft from C)
+
+### Assemble the object file
+
+`nasm -f elf32 ex10.asm -o ex10.o`
+
+### Perform linking with gcc
+
+`gcc -m32 ex10.o -o ex10`
