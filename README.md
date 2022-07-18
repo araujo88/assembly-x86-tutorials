@@ -9,7 +9,7 @@ Assembly x86 tutorials
 
 ### Assemble into machine code 
 
-`nasm -f elf32 ex1.asm -o ex1.`
+`nasm -f elf32 ex1.asm -o ex1.o`
 
 elf32 - executable and linking format.
 
@@ -24,6 +24,7 @@ elf32 - executable and linking format.
 ### Check the exit status
 
 `echo $?`
+<<<<<<< HEAD
 
 ## Running example 10 (calls prinft from C)
 
@@ -34,3 +35,5 @@ elf32 - executable and linking format.
 ### Perform linking with gcc
 
 `gcc -m32 ex10.o -o ex10`
+=======
+>>>>>>> 57ea57b1c5e9eae931d4bbbf56ffc5c1404846c8
