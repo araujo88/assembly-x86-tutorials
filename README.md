@@ -24,7 +24,6 @@ elf32 - executable and linking format.
 ### Check the exit status
 
 `echo $?`
-<<<<<<< HEAD
 
 ## Running example 10 (calls prinft from C)
 
